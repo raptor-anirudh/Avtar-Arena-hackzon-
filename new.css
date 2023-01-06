@@ -1,0 +1,200 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .main-width {
+        width: 1500px;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    
+    .hero {
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+    }
+    
+    nav ul li:not(:last-child) a:hover,
+    nav ul li:not(:last-child) a:focus {
+        border-bottom: 2px solid rgb(243, 243, 243);
+    }
+    
+    nav ul li.active a {
+        border-bottom: 5px solid rgb(243, 243, 246);
+    }
+    
+    .hero header .logo h2 a {
+        display: block;
+        font-size: 32px;
+        font-weight: 600;
+        text-decoration: none;
+        color: rgb(57, 3, 3);
+    }
+    
+    .hero header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0 30px;
+    }
+    
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        margin-left: 60px;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 2px sol solid transparent;
+        transition: 1s;
+    }
+    
+    nav ul li:not(:last-child) a:hover,
+    nav ul li:not(:last-child) a:focus {
+        border-bottom: 2px sol solid rgb(70, 22, 22);
+    }
+    
+    nav ul li.active a {
+        border-bottom: 2px sol solid rgb(55, 12, 196);
+    }
+    
+    .content {
+        padding-top: 140px;
+    }
+    
+    .content .main-text {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .content .main-text h6 {
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 40px;
+    }
+    
+    .content .main-text h1 {
+        font-size: 100px;
+        line-height: 1;
+        color: white;
+        margin: 0px 0px 45px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .content .main-text h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .content .main-text p {
+        max-width: 100%;
+        width: 480px;
+        color: white;
+        line-height: 1.8;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    
+    .content .main-text a {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(179, 129, 129);
+        background: white;
+        border: 1px solid rgb(171, 32, 32);
+        padding: 9px 25px;
+        line-height: 1.4;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .content .main-text a:hover {
+        transform: scale(1.2);
+        border: 1px solid #f5dca8;
+        background: transparent;
+        color: white;
+        transition: .1s;
+    }
+    
+    .content .main-text a.cta {
+        border: 1px solid #f5dca8;
+        color: white;
+        background: transparent;
+        margin-left: 20px;
+    }
+    
+    .content .main-text a.cta i {
+        margin-right: 12px;
+    }
+    
+    .content .main-text a.cta.hover {
+        color: black;
+        background: white;
+        border: 1px solid white;
+        transition: .1s;
+    }
+    
+    .bro1 {
+        position: relative;
+        display: inline-block;
+        border: 8px solid rgb(254, 254, 254);
+        padding: 40px;
+        margin: 20px;
+    }
+    
+    .bro2 {
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 8px solid white;
+        padding: 40px;
+        border-color: aliceblue;
+    }
+    
+    .bro3 {
+        position: relative;
+        display: inline-block;
+        border: 8px solid white;
+        padding: 40px;
+    }
+    
+    .bro4 {
+        position: relative;
+        display: inline-block;
+        border: 8px solid white;
+        padding: 40px;
+        color: white;
+        margin-left: 50px;
+    }
+    
+    .ad1 {
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #Video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        background: transparent;
+    }

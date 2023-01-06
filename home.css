@@ -1,0 +1,281 @@
+main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Seymour One', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main-width {
+    width: 1400px;
+    max-width: 99%;
+    margin: 0 auto;
+}
+
+.container
+/*login*/
+
+{
+    position: relative;
+    border: 10px black solid;
+    border-radius: 5px;
+    background-color: rgb(23, 22, 22);
+    padding: 150px 0 150px 0;
+    opacity: 0.85;
+}
+
+.hello {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    /*background: radial-gradient(grey, 50%, black);*/
+    background-image: url(mainbg.png);
+    /*background-image: url(bg.gif);*/
+    background-size: cover;
+    position: relative;
+}
+
+.ad {
+    color: whitesmoke;
+}
+
+.hello1 {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    /*background: radial-gradient(grey, 50%, black);
+    background-image: url(mainbg.png);
+    /*background-image: url(bg.gif);
+    background-size: cover;*/
+    position: relative;
+}
+
+.hello header .logo h2 a {
+    display: block;
+    font-size: 43px;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+}
+
+.hello header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 40px;
+}
+
+.hello1 header .logo h2 a {
+    display: block;
+    font-size: 43px;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+}
+
+.hello1 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(252, 254, 255);
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: 800;
+    border-bottom: 2px ridge transparent;
+    transition: .5s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+    border-bottom: 2px solid rgb(243, 243, 243);
+}
+
+nav ul li.active a {
+    border-bottom: 5px solid rgb(243, 243, 246);
+}
+
+nav ul li.btn a {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(246, 249, 249);
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 80px;
+}
+
+nav ul li.btn:hover a {
+    border: 2px solid white;
+    color: rgb(3, 3, 3);
+    background: rgb(251, 244, 244);
+    transition: .4s;
+}
+
+.main {
+    padding-top: 150px;
+}
+
+.main .main-text {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 60px;
+}
+
+.main .main-text h5 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-family: 'poppins', cursive;
+    line-height: 0.1;
+}
+
+.main .main-text h3 {
+    font-family: 'poppins', cursive;
+    font-size: 30px;
+    line-height: 0.1;
+    color: white;
+    margin: 0px 0px 45px;
+}
+
+.main .main-text h2 {
+    font-size: 70px;
+    line-height: 0.8;
+    color: white;
+    margin: 0px 0px 45px;
+    font-family: 'poppins', cursive;
+}
+
+.main .main-text p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: white;
+    margin: 0px 0px 45px;
+}
+
+.main .main-text a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 2px solid white;
+    padding: 10px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.main .main-text a:hover {
+    transform: scale(1.3);
+    border: 2px solid black;
+    background: -webkit-linear-gradient(rgb(197, 134, 7), rgb(255, 55, 0));
+    color: black;
+    transition: .4s;
+}
+
+
+/*.main .main-text a.icon {
+    border: 2px solid black;
+    color: white;
+    background: -webkit-linear-gradient(rgb(0, 187, 255), rgb(4, 0, 255));
+    margin-left:20px
+}*/
+
+.main .main-text a.icon i {
+    margin-right: 12px;
+}
+
+.main .main-text a.icon:hover {
+    color: black;
+    background: -webkit-linear-gradient(rgb(225, 195, 4), rgb(165, 73, 3));
+    border: 2px solid white;
+    transition: .4s;
+}
+
+.main .contacts {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    margin-left: 600px;
+}
+
+.main .contacts a {
+    display: inline-block;
+    color: rgb(12, 11, 11);
+    margin-right: 60px;
+    font-size: 34px;
+}
+
+.main .contacts a:hover {
+    transform: scale(1.5);
+    transition: .4s;
+    color: rgb(249, 249, 249);
+}
+
+.gameone {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.gametwo {
+    position: fixed;
+    width: 100%;
+    height: 55%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    background: transparent;
+}
+
+.gamethree {
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    bottom: 0;
+    right: 0;
+    text-align: end;
+    margin: 100px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: transparent;
+}
+
+.gamefour {
+    position: fixed;
+    width: 90%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
